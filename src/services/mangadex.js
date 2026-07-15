@@ -5,7 +5,7 @@ import { smartFetchJson } from './smartFetch'
 // pasan por el Cloudflare Worker propio, que actúa de proxy y añade las
 // cabeceras CORS necesarias.
 // Documentación oficial de la API que el worker reenvía: https://api.mangadex.org/docs/
-const API_BASE = 'https://mangataik-proxy.torresizumi1.workers.dev'
+const API_BASE = 'https://mangataik-proxy.torresizumi1.workers.dev/api'
 const UPLOADS_BASE = 'https://uploads.mangadex.org'
 
 /**
